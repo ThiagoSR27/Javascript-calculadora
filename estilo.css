@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Parisienne', cursive;
+    font-size: 22px;
+}
+li{
+    list-style: none;
+}
+html{
+    height: 100%;
+    background: white;
+    background: radial-gradient(square,#22FAA8 24%,#29CCE3);
+    background-size: cover;
+}
+#container{
+    width: 80%;
+    height: auto;
+    margin: 4x auto;
+}
