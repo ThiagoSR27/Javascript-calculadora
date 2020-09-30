@@ -17,5 +17,47 @@ html{
 #container{
     width: 80%;
     height: auto;
-    margin: 4x auto;
+    margin: 4px auto;
+}
+#calc{
+    width: 234px;
+    height: 230px;
+    padding: 2px;
+    background-color: darkorange;
+}
+.input-valor{
+    margin: 8px auto;
+    width: 95%;
+    height: 30px;
+    font-size: 16px;
+    overflow: hidden;
+    text-align: right;
+    color: black;
+    padding: 4px;
+    background-color:ivory;
+    box-shadow: inset -1px -1px 4px 1px ivory;
+}
+.key li{
+    width: 50px;
+    height: 30px;
+    border-radius: 3px;
+    color: whitesmoke;
+    background-color: steelblue;
+    cursor: pointer;
+    float: left;
+    margin: 0px -3px 5px 8px;
+    line-height: 30px;
+    text-align: center;
+    box-shadow: gray 0px 3px 1px 0px;
+}
+.key li:hover{
+    background-color: skyblue;
+    color: steelblue;
+    transition: 0.2s;
+}
+.key li:active{
+    box-shadow:darkslategray;
+}
+.verificar{
+    width: 93.4% !important;
 }
