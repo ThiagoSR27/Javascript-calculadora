@@ -79,3 +79,5 @@ var btn = document.querySelectorAll(".key li"),
             }
         });
     }
+
+    depois eu arrumo prometo
